@@ -1,8 +1,7 @@
 public class Question_1 {
-	static String starString(int n) {
 
+	private static String starString(int n) {
 		String result = "";
-
 		if(0<=n) {
 			long stringLength = 1;
 			for (; 0<n ; --n) {
@@ -14,6 +13,7 @@ public class Question_1 {
 		}
 		return result;
 	}
+
 	public static void main(String[] args) {
 		System.out.println(starString(2));
 	}
